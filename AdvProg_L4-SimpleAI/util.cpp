@@ -36,5 +36,3 @@ bool isCharInWord(const char ch, const string& word)
 {
   return (word.find_first_of(ch) != string::npos);
 }
-
-
